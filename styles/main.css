@@ -1,4 +1,5 @@
 /* Fonts settings */
+ 
 
 body,
 p,
@@ -32,29 +33,47 @@ h6,
 .footer-brand,
 .footer-big h5,
 .footer-big h4,
-.media .media-heading {
+.media .media-heading,
+.titulo
+ {
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
     font-weight: 600;
 }
 
 
+.titulo{
+    color: #83AF3E;
+    font-size: 24px;
+
+}
+
 /* Common Styles */
 
 .title {
-    color: #111111;
+    color: #83AF3E;
 }
 
 .bg-gradient {
     background: linear-gradient(180deg, #fe2ec0 0%, #ff68d2 100%);
 }
 
+a{
+    color: #111111;
+}
+
 
 /* Header Section */
 
+.caps{
+    width: 400px;
+}
+
 .aa-header {
+    background-image: url(/images/home-portada.png);
     position: relative;
     background-size: cover;
     min-height: 600px;
+    
 }
 
 .aa-header .navbar .logo {
@@ -68,6 +87,7 @@ h6,
     font-weight: 600;
     box-shadow: none;
     letter-spacing: 1px;
+    color: #DC4FB6;
     opacity: 1;
 }
 
@@ -78,18 +98,17 @@ h6,
 
 .aa-header .aa-header-content h1 {
     letter-spacing: 1px;
+    color: #111111;
 }
 
 @media (max-width: 992px) {
     .aa-header h1 {
         font-size: 38px;
+        color: #DC4FB6;
     }
     .aa-header .aa-header-content img {
-        padding-top: 40px;
-    }
-    .aa-header .aa-header-content li {
-        font-size: 12px;
-    }
+     }
+ 
 }
 
 @media (max-width: 768px) {
@@ -109,6 +128,7 @@ h6,
     }
     .aa-header .aa-header-content li {
         font-size: 10px;
+        color: #111111;
     }
 }
 
@@ -185,7 +205,7 @@ h6,
 
 .aa-price-package .aa-price ul li {
     line-height: 3;
-    border-bottom: 1px dashed #eee;
+    border-bottom: 1px dashed rgb(22, 22, 22);
 }
 
 .aa-price-package .aa-price-active {
@@ -258,11 +278,11 @@ h6,
 }
 
 .aa-download-section i {
-    color: #888;
+    color: rgb(0, 0, 0);
 }
 
 .aa-download-section .aa-apple:hover i {
-    color: #B4B0B0;
+    color: #000000;
 }
 
 .aa-download-section .aa-android:hover i {
@@ -270,7 +290,7 @@ h6,
 }
 
 .aa-download-section .aa-windows:hover i {
-    color: #0078d7;
+    color: #DC4FB6;
 }
 
 .aa-download-section .aa-download-icon {
@@ -304,8 +324,12 @@ h6,
 
 
 /* Footer sectiom */
+ 
+ul{
+    color: #111111;
+}
 
-.aa-footer a.credit {
-    color: inherit;
-    border-bottom: 1px dashed;
+span{
+    color: #DC4FB6;
+    font-weight: bold;
 }
