@@ -44,10 +44,8 @@ h6,
 }
 
 .titulos {
-    justify-content: center;
     color: #83AF3E;
-    margin-top: 50px;
-    padding: 10px 15px;
+    padding-right: 25px;
     font-size: 16px;
 }
 
@@ -79,6 +77,24 @@ h6,
 .bg-gradientAmarillo {
     color: #c0e420;
     font-weight: bold;
+}
+
+.btn-download {
+    background-color: #ffffff;
+    padding: 8px 15px;
+    border: 1.5px solid #000000;
+    border-radius: 1.8em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-download:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.mapa {
+    margin-top: 10%;
 }
 
 .tam {
@@ -119,7 +135,7 @@ a {
 }
 
 .aa-header .aa-header-content {
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 6rem;
 }
 
