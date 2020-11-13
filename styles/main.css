@@ -54,6 +54,7 @@ h6,
 
 .title {
     color: #83AF3E;
+    text-align: center;
 }
 
 .icon-verde {
@@ -77,6 +78,49 @@ h6,
 .bg-gradientAmarillo {
     color: #c0e420;
     font-weight: bold;
+}
+
+.forma {
+    width: 560px;
+    height: 315px;
+}
+
+@media(max-width: 832px) {
+    .caps {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 612px) {
+    .forma {
+        width: 460px;
+        height: 315px;
+    }
+}
+
+@media(max-width: 475px) {
+    .forma {
+        width: 360px;
+        height: 315px;
+    }
+}
+
+@media(max-width: 575px) {
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
+}
+
+@media(max-width: 415px) {
+    .forma {
+        width: 320px;
+        height: 310px;
+    }
+    .description {
+        margin-right: 0 !important;
+    }
 }
 
 .btn-download {
@@ -105,6 +149,16 @@ a {
     color: #111111;
 }
 
+.contenedor {
+    width: 100%;
+}
+
+@media(min-width:360px) {
+    .contenedor {
+        width: 100%;
+    }
+}
+
 
 /* Header Section */
 
@@ -116,7 +170,6 @@ a {
     background-image: url(/images/home-portada.png);
     position: relative;
     background-size: cover;
-    min-height: 600px;
 }
 
 .aa-header .navbar .logo {
@@ -144,32 +197,10 @@ a {
     color: #111111;
 }
 
-@media (max-width: 992px) {
-    .aa-header h1 {
-        font-size: 38px;
-        color: #DC4FB6;
-    }
-    .aa-header .aa-header-content img {}
-}
-
-@media (max-width: 768px) {
-    .aa-header .aa-header-content img {
-        margin-top: 2px !important;
-        padding-top: none !important;
-        padding-bottom: 25px;
-    }
-}
-
 @media (max-width: 576px) {
-    .aa-header .aa-logo-img {
-        padding-left: 20px;
-    }
-    .aa-header .navbar-brand {
-        padding-right: 20px !important;
-    }
-    .aa-header .aa-header-content li {
-        font-size: 10px;
-        color: #111111;
+    .logo {
+        width: 15%;
+        height: 15%;
     }
 }
 
@@ -183,7 +214,7 @@ a {
 
 .aa-product-details .description .h4 {
     color: #111111;
-    padding-bottom: 1.5rem;
+    padding-bottom: 20px;
 }
 
 .aa-product-details .icon {
@@ -195,24 +226,6 @@ a {
 
 .aa-screenshots {
     background-color: #F5FAFD;
-}
-
-@media (max-width: 992px) {
-    .aa-screenshots .carousel-inner .carousel-item img {
-        height: 300px;
-    }
-}
-
-@media (max-width: 768px) {
-    .aa-screenshots .carousel-inner .carousel-item img {
-        height: 200px;
-    }
-}
-
-@media (max-width: 400px) {
-    .aa-screenshots .carousel-inner .carousel-item img {
-        height: 150px;
-    }
 }
 
 .aa-price-package .card {
@@ -267,55 +280,6 @@ a {
 
 .aa-price-package .text-small:hover {
     opacity: 1;
-}
-
-.aa-testimonials-section .aa-testimonials {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.aa-testimonials-section .aa-testimonials img {
-    border-radius: 100%;
-    width: 96px;
-    height: auto;
-}
-
-.aa-testimonials-section .aa-testimonials .aa-testimonials-body {
-    background-color: #F5FAFD;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 10px -4px;
-}
-
-.aa-testimonials-section .aa-testimonials .h5 {
-    color: #111111;
-}
-
-@media (max-width: 992px) {
-    .aa-testimonials-section .aa-testimonials .aa-testimonials-body {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .aa-testimonials-section .aa-testimonials .aa-testimonials-body p {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 768px) {
-    .aa-testimonials-section .aa-testimonials .aa-testimonials-body {
-        text-align: center;
-    }
-    .aa-testimonials-section .aa-testimonials .aa-testimonials-body {
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
 }
 
 .aa-download-section i {
