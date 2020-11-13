@@ -63,6 +63,7 @@ h6,
 
 .textoCont {
     color: #818181;
+    font-size: 16px;
 }
 
 .bg-gradientAzul {
@@ -124,15 +125,27 @@ h6,
 }
 
 .btn-download {
+    color: #000000;
     background-color: #ffffff;
     padding: 8px 15px;
     border: 1.5px solid #000000;
     border-radius: 1.8em;
-    color: #000000;
-    text-decoration: none;
 }
 
 .btn-download:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.btn-explorar {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 8px 20px;
+    border: 1.5px solid #000000;
+    border-radius: 1.8em;
+}
+
+.btn-explorar:hover {
     background: #000000;
     color: #ffffff;
 }
@@ -168,6 +181,8 @@ a {
 
 .aa-header {
     background-image: url(/images/home-portada.png);
+    width: 100%;
+    height: 10%;
     position: relative;
     background-size: cover;
 }
