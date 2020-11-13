@@ -1,5 +1,4 @@
 /* Fonts settings */
- 
 
 body,
 p,
@@ -34,18 +33,24 @@ h6,
 .footer-big h5,
 .footer-big h4,
 .media .media-heading,
-.titulo
- {
+.titulo {
     font-family: "Dosis", "Helvetica", Arial, sans-serif;
     font-weight: 600;
 }
 
-
-.titulo{
+.titulo {
     color: #83AF3E;
     font-size: 24px;
-
 }
+
+.titulos {
+    justify-content: center;
+    color: #83AF3E;
+    margin-top: 50px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
 
 /* Common Styles */
 
@@ -53,18 +58,41 @@ h6,
     color: #83AF3E;
 }
 
-.bg-gradient {
-    background: linear-gradient(180deg, #fe2ec0 0%, #ff68d2 100%);
+.icon-verde {
+    background-color: #34d83c;
 }
 
-a{
+.textoCont {
+    color: #818181;
+}
+
+.bg-gradientAzul {
+    color: #383be7;
+    font-weight: bold;
+}
+
+.bg-gradientVerde {
+    color: #38e747;
+    font-weight: bold;
+}
+
+.bg-gradientAmarillo {
+    color: #c0e420;
+    font-weight: bold;
+}
+
+.tam {
+    height: 100%;
+}
+
+a {
     color: #111111;
 }
 
 
 /* Header Section */
 
-.caps{
+.caps {
     width: 400px;
 }
 
@@ -73,7 +101,6 @@ a{
     position: relative;
     background-size: cover;
     min-height: 600px;
-    
 }
 
 .aa-header .navbar .logo {
@@ -106,9 +133,7 @@ a{
         font-size: 38px;
         color: #DC4FB6;
     }
-    .aa-header .aa-header-content img {
-     }
- 
+    .aa-header .aa-header-content img {}
 }
 
 @media (max-width: 768px) {
@@ -175,7 +200,7 @@ a{
 }
 
 .aa-price-package .card {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px -1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px -1px;
 }
 
 .aa-price-package .aa-price {
@@ -189,7 +214,7 @@ a{
 
 .aa-price-package .aa-price .aa-price-section {
     padding: 25px 5px;
-    background-color: white;
+    background-color: #f1f5f0;
     margin-left: -1.25rem;
     margin-right: -1.25rem;
     font-size: 28px;
@@ -324,12 +349,7 @@ a{
 
 
 /* Footer sectiom */
- 
-ul{
-    color: #111111;
-}
 
-span{
-    color: #DC4FB6;
-    font-weight: bold;
+ul {
+    color: #111111;
 }
